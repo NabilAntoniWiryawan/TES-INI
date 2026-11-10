@@ -1,537 +1,553 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nabil Book - Toko Buku & Novel Populer Terlengkap</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nabil Book - Toko Buku & Novel Populer</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- ================= NAVBAR ================= -->
-    <header class="site-header">
-        <div class="container nav-container">
-            <a href="#beranda" class="brand-logo">
-                <span class="logo-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                        <path d="M6 6h10M6 10h10M6 14h6"></path>
-                    </svg>
-                </span>
-                <span class="logo-text">Nabil<strong>Book</strong></span>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#beranda" class="brand-logo">
+        <span class="logo-badge">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+          </svg>
+        </span>
+        <span>Nabil<strong>Book</strong></span>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="#beranda" class="nav-link active">Beranda</a>
+        <a href="#profil" class="nav-link">Profil Pengembang</a>
+        <a href="#katalog" class="nav-link">Katalog Novel</a>
+        <a href="#kategori" class="nav-link">Kategori</a>
+        <a href="#keunggulan" class="nav-link">Keunggulan</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <div class="nav-action">
+        <a href="#katalog" class="btn btn-primary">Lihat Koleksi</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="beranda" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-circle"></span>
+            Koleksi Novel Pilihan 2026
+          </div>
+          <h1 class="hero-title">
+            Temukan Cerita Terbaik di <span>Nabil Book</span>
+          </h1>
+          <p class="hero-desc">
+            Menyediakan berbagai judul novel romansa, drama, dan fiksi terpopuler. 
+            Setiap buku dijamin 100% original dengan harga yang bersahabat untuk pelajar dan mahasiswa.
+          </p>
+          <div class="hero-actions">
+            <a href="#katalog" class="btn btn-primary">Eksplorasi Buku</a>
+            <a href="#profil" class="btn btn-outline">Info Pengembang</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span class="stat-val">500+</span>
+              <span class="stat-lbl">Judul Tersedia</span>
+            </div>
+            <div>
+              <span class="stat-val">100%</span>
+              <span class="stat-lbl">Original Resmi</span>
+            </div>
+            <div>
+              <span class="stat-val">4.9/5</span>
+              <span class="stat-lbl">Rating Kepuasan</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <span class="hero-card-tag">Bestseller Minggu Ini</span>
+          <img src="images/1.png" alt="Cover Novel Dia Milikku" class="hero-cover">
+          <div class="hero-card-meta">
+            <div>
+              <h4>Dia Milikku</h4>
+              <span>Juriyahleonia</span>
+            </div>
+            <span class="hero-card-price">Rp 88.000</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profil Pengembang & Tugas Mahasiswa -->
+    <section id="profil" class="profile-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Identitas</span>
+          <h2 class="section-title">Profil Pengembang Web</h2>
+          <p class="section-subtitle">
+            Halaman web ini dikembangkan sebagai pemenuhan tugas mata kuliah Pemrograman Web.
+          </p>
+        </div>
+
+        <div class="profile-card">
+          <div class="profile-photo-box">
+            <div class="profile-img-wrap">
+              <img src="images/profile.jpg" alt="Foto Nabil Antoni" class="profile-img">
+            </div>
+            <span class="profile-role-badge">Mahasiswa Aktif</span>
+          </div>
+
+          <div class="profile-details">
+            <h3 class="profile-title">NABIL ANTONI</h3>
+            <p class="profile-subtitle">Mahasiswa Sistem Informasi - STMIK Lombok</p>
+
+            <div class="profile-grid">
+              <div class="profile-item">
+                <span class="profile-lbl">Nomor Induk Mahasiswa</span>
+                <span class="profile-val">SI22250011</span>
+              </div>
+              <div class="profile-item">
+                <span class="profile-lbl">Program Studi</span>
+                <span class="profile-val">Sistem Informasi</span>
+              </div>
+              <div class="profile-item">
+                <span class="profile-lbl">Perguruan Tinggi</span>
+                <span class="profile-val">STMIK Lombok</span>
+              </div>
+              <div class="profile-item">
+                <span class="profile-lbl">Mata Kuliah</span>
+                <span class="profile-val">Pemrograman Web (PW)</span>
+              </div>
+            </div>
+
+            <p class="profile-note">
+              "Proyek Nabil Book dibangun menggunakan HTML5 semantik dan CSS3 murni tanpa framework, dirancang dengan tata letak responsif yang rapi serta navigasi belanja buku yang ramah pengguna."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Katalog Novel -->
+    <section id="katalog" class="books-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Koleksi Terpopuler</span>
+          <h2 class="section-title">Rekomendasi Novel Pilihan</h2>
+          <p class="section-subtitle">
+            Pilihan novel favorit dengan ulasan terbaik yang paling banyak dicari minggu ini.
+          </p>
+        </div>
+
+        <div class="books-grid">
+          <!-- Buku 1 -->
+          <article class="book-card">
+            <div class="book-cover-wrap">
+              <span class="book-discount">-10%</span>
+              <img src="images/1.png" alt="Cover Dia Milikku" loading="lazy">
+            </div>
+            <div class="book-info">
+              <span class="book-genre">Romansa Remaja</span>
+              <h3 class="book-title">Dia Milikku</h3>
+              <p class="book-author">Juriyahleonia</p>
+              <div class="book-rating">
+                <span class="star-icon">★★★★★</span>
+                <span>4.9 (142 ulasan)</span>
+              </div>
+              <p class="book-desc">
+                Kisah persahabatan manis di masa sekolah dan keberanian untuk mengungkapkan perasaan sebelum waktu memisahkan.
+              </p>
+              <div class="book-price-row">
+                <span class="current-price">Rp 88.000</span>
+                <span class="old-price">Rp 98.000</span>
+              </div>
+              <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20ingin%20memesan%20novel%20Dia%20Milikku" 
+                 target="_blank" class="btn btn-buy">
+                Pesan via WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <!-- Buku 2 -->
+          <article class="book-card">
+            <div class="book-cover-wrap">
+              <span class="book-discount">Bestseller</span>
+              <img src="images/2.png" alt="Cover Melodi Kematian" loading="lazy">
+            </div>
+            <div class="book-info">
+              <span class="book-genre">Misteri & Drama</span>
+              <h3 class="book-title">Melodi Kematian</h3>
+              <p class="book-author">Tomorrow</p>
+              <div class="book-rating">
+                <span class="star-icon">★★★★★</span>
+                <span>4.8 (98 ulasan)</span>
+              </div>
+              <p class="book-desc">
+                Di balik hamparan padang bunga dan alunan melodi sunyi, tersimpan teka-teki masa lalu yang menuntut penebusan.
+              </p>
+              <div class="book-price-row">
+                <span class="current-price">Rp 92.000</span>
+                <span class="old-price">Rp 105.000</span>
+              </div>
+              <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20ingin%20memesan%20novel%20Melodi%20Kematian" 
+                 target="_blank" class="btn btn-buy">
+                Pesan via WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <!-- Buku 3 -->
+          <article class="book-card">
+            <div class="book-cover-wrap">
+              <span class="book-discount">-15%</span>
+              <img src="images/3.png" alt="Cover Kita & Waktu" loading="lazy">
+            </div>
+            <div class="book-info">
+              <span class="book-genre">Romansa Populer</span>
+              <h3 class="book-title">Kita & Waktu</h3>
+              <p class="book-author">Aireen Natasha</p>
+              <div class="book-rating">
+                <span class="star-icon">★★★★★</span>
+                <span>4.9 (176 ulasan)</span>
+              </div>
+              <p class="book-desc">
+                Dua insan yang dipertemukan di bawah langit senja, belajar menerima arti jarak dan waktu yang tak pernah berhenti.
+              </p>
+              <div class="book-price-row">
+                <span class="current-price">Rp 95.000</span>
+                <span class="old-price">Rp 112.000</span>
+              </div>
+              <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20ingin%20memesan%20novel%20Kita%20dan%20Waktu" 
+                 target="_blank" class="btn btn-buy">
+                Pesan via WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <!-- Buku 4 -->
+          <article class="book-card">
+            <div class="book-cover-wrap">
+              <span class="book-discount">Edisi Khusus</span>
+              <img src="images/4.png" alt="Cover Kita & Waktu Edisi Spesial" loading="lazy">
+            </div>
+            <div class="book-info">
+              <span class="book-genre">Koleksi Spesial</span>
+              <h3 class="book-title">Kita & Waktu (Hardcover)</h3>
+              <p class="book-author">Aireen Natasha</p>
+              <div class="book-rating">
+                <span class="star-icon">★★★★★</span>
+                <span>5.0 (64 ulasan)</span>
+              </div>
+              <p class="book-desc">
+                Edisi hardcover eksklusif bertanda tangan penulis, dilengkapi bonus bab epilog dan pembatas buku ilustrasi senja.
+              </p>
+              <div class="book-price-row">
+                <span class="current-price">Rp 125.000</span>
+                <span class="old-price">Rp 145.000</span>
+              </div>
+              <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20ingin%20memesan%20Kita%20dan%20Waktu%20Edisi%20Khusus" 
+                 target="_blank" class="btn btn-buy">
+                Pesan via WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <!-- Buku 5 -->
+          <article class="book-card">
+            <div class="book-cover-wrap">
+              <span class="book-discount">Favorit</span>
+              <img src="images/5.png" alt="Cover Why Don't We?" loading="lazy">
+            </div>
+            <div class="book-info">
+              <span class="book-genre">Coming of Age</span>
+              <h3 class="book-title">Why Don't We?</h3>
+              <p class="book-author">Winter Sonata</p>
+              <div class="book-rating">
+                <span class="star-icon">★★★★★</span>
+                <span>4.8 (85 ulasan)</span>
+              </div>
+              <p class="book-desc">
+                Perjalanan mencari keberanian mengambil jalan hidup sendiri saat masa depan terasa penuh keraguan dan harapan.
+              </p>
+              <div class="book-price-row">
+                <span class="current-price">Rp 89.000</span>
+                <span class="old-price">Rp 99.000</span>
+              </div>
+              <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20ingin%20memesan%20novel%20Why%20Dont%20We" 
+                 target="_blank" class="btn btn-buy">
+                Pesan via WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <!-- Buku 6 -->
+          <article class="book-card">
+            <div class="book-cover-wrap">
+              <span class="book-discount">-12%</span>
+              <img src="images/6.png" alt="Cover Arah Kembali" loading="lazy">
+            </div>
+            <div class="book-info">
+              <span class="book-genre">Drama & Refleksi</span>
+              <h3 class="book-title">Arah Kembali</h3>
+              <p class="book-author">LUB</p>
+              <div class="book-rating">
+                <span class="star-icon">★★★★★</span>
+                <span>4.8 (110 ulasan)</span>
+              </div>
+              <p class="book-desc">
+                Kisah pulang dan merajut kembali hangatnya rumah setelah bertahun-tahun mengembara di tanah perantauan.
+              </p>
+              <div class="book-price-row">
+                <span class="current-price">Rp 85.000</span>
+                <span class="old-price">Rp 96.000</span>
+              </div>
+              <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20ingin%20memesan%20novel%20Arah%20Kembali" 
+                 target="_blank" class="btn btn-buy">
+                Pesan via WhatsApp
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kategori Genre -->
+    <section id="kategori" class="categories-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Genre</span>
+          <h2 class="section-title">Jelajahi Berdasarkan Kategori</h2>
+          <p class="section-subtitle">
+            Pilih genre favorit yang sesuai dengan suasana hati dan selera membaca Anda.
+          </p>
+        </div>
+
+        <div class="category-grid">
+          <div class="category-card">
+            <div class="category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h3>Romansa Remaja</h3>
+            <p>Cerita persahabatan dan kisah cinta manis yang menyentuh hati.</p>
+            <span class="category-badge">120+ Judul</span>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </div>
+            <h3>Misteri & Thriller</h3>
+            <p>Ketegangan teka-teki rahasia masa lalu dan alur cerita tak terduga.</p>
+            <span class="category-badge">65+ Judul</span>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </div>
+            <h3>Coming of Age</h3>
+            <p>Perjalanan menemukan jati diri, impian, dan makna kehidupan dewasa.</p>
+            <span class="category-badge">80+ Judul</span>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+            </div>
+            <h3>Drama & Sastra</h3>
+            <p>Karya naratif mendalam dengan pesan moral dan nilai kehidupan.</p>
+            <span class="category-badge">95+ Judul</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Keunggulan Layanan -->
+    <section id="keunggulan" class="features-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Komitmen Layanan</span>
+          <h2 class="section-title">Mengapa Memilih Nabil Book?</h2>
+          <p class="section-subtitle">
+            Kami memastikan kenyamanan dan keamanan dalam setiap pembelian novel Anda.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-box">
+            <div class="feature-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h4>100% Original</h4>
+            <p>Buku langsung dari penerbit resmi dengan jaminan segel orisinal.</p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h4>Packing Aman</h4>
+            <p>Pengemasan rapi berlapis kardus dan pelindung anti basah.</p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h4>Harga Bersahabat</h4>
+            <p>Potongan harga khusus untuk mendukung minat baca mahasiswa.</p>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h4>Respon Cepat</h4>
+            <p>Admin siap melayani konsultasi judul dan pemesanan setiap hari.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni Pembaca -->
+    <section class="reviews-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Ulasan Pembaca</span>
+          <h2 class="section-title">Apa Kata Mereka?</h2>
+          <p class="section-subtitle">Pengalaman pembaca yang telah berbelanja di Nabil Book.</p>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <p class="review-text">
+              "Novel Dia Milikku sampai dalam kondisi sempurna dan tersegel rapat. Harganya lebih terjangkau dibanding toko lain, recommended banget!"
+            </p>
+            <div class="reviewer-meta">
+              <h5 class="reviewer-name">Dimas Pratama</h5>
+              <span class="reviewer-info">Mahasiswa Sistem Informasi</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <p class="review-text">
+              "Pesan lewat WhatsApp responnya cepat dan ramah. Cover bukunya estetik banget, pas untuk koleksi di rak buku kamar."
+            </p>
+            <div class="reviewer-meta">
+              <h5 class="reviewer-name">Sarah Anggraini</h5>
+              <span class="reviewer-info">Penikmat Novel Romansa</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <p class="review-text">
+              "Pengiriman ke Lombok cepat dan packing-nya super aman berlapis kardus tebal. Sangat puas belanja di sini."
+            </p>
+            <div class="reviewer-meta">
+              <h5 class="reviewer-name">Rian Saputra</h5>
+              <span class="reviewer-info">Pelajar & Pembaca Setia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Konsultasi / Kontak WhatsApp -->
+    <section id="kontak" class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <div class="cta-text">
+            <h2>Ingin Request Judul Buku Lain?</h2>
+            <p>
+              Punya judul novel impian yang belum ada di katalog? Hubungi kami langsung melalui WhatsApp untuk pemesanan khusus.
+            </p>
+          </div>
+          <div class="cta-action">
+            <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20ingin%20tanya%20stok%20katalog%20buku" 
+               target="_blank" class="btn btn-whatsapp">
+              Hubungi via WhatsApp
             </a>
-
-            <nav class="nav-menu">
-                <a href="#beranda" class="nav-link active">Beranda</a>
-                <a href="#identitas" class="nav-link">Identitas Pengembang</a>
-                <a href="#koleksi" class="nav-link">Koleksi Buku</a>
-                <a href="#kategori" class="nav-link">Kategori</a>
-                <a href="#keunggulan" class="nav-link">Keunggulan</a>
-                <a href="#kontak" class="nav-link">Kontak</a>
-            </nav>
-
-            <div class="nav-action">
-                <a href="#koleksi" class="btn btn-primary btn-sm">Jelajahi Toko</a>
-            </div>
+          </div>
         </div>
-    </header>
+      </div>
+    </section>
+  </main>
 
-    <main>
-        <!-- ================= HERO SECTION ================= -->
-        <section id="beranda" class="hero-section">
-            <div class="container hero-container">
-                <div class="hero-content">
-                    <div class="badge-pill">
-                        <span class="badge-dot"></span> Koleksi Pilihan Mahasiswa 2026
-                    </div>
-                    <h1 class="hero-title">
-                        Eksplorasi Dunia & Cerita Terbaik di <span class="text-accent">Nabil Book</span>
-                    </h1>
-                    <p class="hero-description">
-                        Temukan berbagai karya sastra fiksi, novel bestseller, dan bacaan inspiratif pilihan. 
-                        Buku 100% original dengan harga bersahabat dan penawaran khusus pelajar & mahasiswa.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#koleksi" class="btn btn-primary">Lihat Koleksi Bestseller</a>
-                        <a href="#identitas" class="btn btn-outline">Info Pengembang Web</a>
-                    </div>
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">500+</span>
-                            <span class="stat-label">Judul Buku</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">100%</span>
-                            <span class="stat-label">Original Guaranteed</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">4.9/5</span>
-                            <span class="stat-label">Rating Pembaca</span>
-                        </div>
-                    </div>
-                </div>
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <h3>Nabil Book</h3>
+        <p>
+          Toko buku online independen yang menyediakan novel fiksi, romansa, dan karya populer pilihan untuk menginspirasi generasi muda.
+        </p>
+      </div>
 
-                <div class="hero-visual">
-                    <div class="featured-book-preview">
-                        <div class="book-card-mockup">
-                            <div class="mockup-ribbon">Rekomendasi Minggu Ini</div>
-                            <div class="mockup-image-frame">
-                                <img src="images/buku-laut-bercerita.jpg" alt="Cover Laut Bercerita" class="mockup-img">
-                            </div>
-                            <div class="mockup-meta">
-                                <div>
-                                    <h4 class="mockup-title">Laut Bercerita</h4>
-                                    <span class="mockup-author">Leila S. Chudori</span>
-                                </div>
-                                <span class="mockup-price">Rp 95.000</span>
-                            </div>
-                        </div>
-                        <div class="glow-bg"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <div class="footer-col">
+        <h4>Navigasi</h4>
+        <ul class="footer-links">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#profil">Profil Pengembang</a></li>
+          <li><a href="#katalog">Katalog Novel</a></li>
+          <li><a href="#kategori">Kategori Genre</a></li>
+        </ul>
+      </div>
 
-        <!-- ================= STUDENT IDENTITY SECTION ================= -->
-        <section id="identitas" class="student-section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">Transparansi Tugas Perkuliahan</span>
-                    <h2 class="section-title">Identitas Mahasiswa Pembuat Web</h2>
-                    <p class="section-subtitle">
-                        Halaman web landing page ini dikembangkan sebagai pemenuhan tugas resmi mata kuliah Pemrograman Web.
-                    </p>
-                </div>
+      <div class="footer-col">
+        <h4>Koleksi Pilihan</h4>
+        <ul class="footer-links">
+          <li><a href="#katalog">Dia Milikku</a></li>
+          <li><a href="#katalog">Melodi Kematian</a></li>
+          <li><a href="#katalog">Kita & Waktu</a></li>
+          <li><a href="#katalog">Why Don't We?</a></li>
+          <li><a href="#katalog">Arah Kembali</a></li>
+        </ul>
+      </div>
 
-                <div class="student-card">
-                    <div class="student-avatar-box">
-                        <div class="avatar-frame">
-                            <img src="images/profile.jpg" alt="Foto Profil Nabil Antoni" class="student-photo">
-                        </div>
-                        <span class="badge-student-status">Mahasiswa Aktif</span>
-                    </div>
-
-                    <div class="student-info-body">
-                        <div class="info-header">
-                            <h3 class="student-name">NABIL ANTONI</h3>
-                            <span class="student-role">Pengembang Web & Mahasiswa Sistem Informasi</span>
-                        </div>
-
-                        <div class="info-grid">
-                            <div class="info-item">
-                                <span class="info-label">Nomor Induk Mahasiswa (NIM)</span>
-                                <span class="info-value text-accent font-bold">SI22250011</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="info-label">Program Studi</span>
-                                <span class="info-value">Sistem Informasi</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="info-label">Perguruan Tinggi</span>
-                                <span class="info-value">STMIK Lombok</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="info-label">Mata Kuliah</span>
-                                <span class="info-value">Pemrograman Web (PW)</span>
-                            </div>
-                        </div>
-
-                        <div class="student-footer-note">
-                            <div class="note-icon">💡</div>
-                            <div class="note-text">
-                                Desain dan aset visual <strong>Nabil Book</strong> terstruktur di folder lokal <code>images/</code> dan <code>css/</code>, siap dijalankan langsung secara offline tanpa kendala CDN.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ================= FEATURED BOOKS SECTION ================= -->
-        <section id="koleksi" class="books-section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">Koleksi Terpopuler</span>
-                    <h2 class="section-title">Novel & Fiksi Bestseller Pilihan</h2>
-                    <p class="section-subtitle">
-                        Rangkaian buku terfavorit yang paling banyak dicari dan dibaca oleh penikmat sastra minggu ini.
-                    </p>
-                </div>
-
-                <div class="books-grid">
-                    <!-- Buku 1 -->
-                    <article class="book-card">
-                        <div class="book-img-box">
-                            <span class="badge-badge-disc">-15%</span>
-                            <img src="images/buku-laut-bercerita.jpg" alt="Sampul Laut Bercerita" class="book-cover-img">
-                        </div>
-                        <div class="book-details">
-                            <span class="genre-pill">Fiksi Sejarah</span>
-                            <h3 class="book-title">Laut Bercerita</h3>
-                            <p class="book-writer">Leila S. Chudori</p>
-                            <div class="book-rating">
-                                <span class="stars">★★★★★</span>
-                                <span class="rating-num">(4.9)</span>
-                            </div>
-                            <p class="book-synopsis">
-                                Kisah persahabatan, cinta, dan kehilangan sekelompok aktivis mahasiswa di era reformasi.
-                            </p>
-                            <div class="book-pricing">
-                                <span class="price-current">Rp 95.000</span>
-                                <span class="price-old">Rp 112.000</span>
-                            </div>
-                            <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20tertarik%20memesan%20buku%20Laut%20Bercerita" 
-                               target="_blank" class="btn btn-buy">
-                                🛒 Pesan via WhatsApp
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Buku 2 -->
-                    <article class="book-card">
-                        <div class="book-img-box">
-                            <span class="badge-badge-disc">Bestseller</span>
-                            <img src="images/buku-bumi-manusia.jpg" alt="Sampul Bumi Manusia" class="book-cover-img">
-                        </div>
-                        <div class="book-details">
-                            <span class="genre-pill">Sastra Klasik</span>
-                            <h3 class="book-title">Bumi Manusia</h3>
-                            <p class="book-writer">Pramoedya Ananta Toer</p>
-                            <div class="book-rating">
-                                <span class="stars">★★★★★</span>
-                                <span class="rating-num">(5.0)</span>
-                            </div>
-                            <p class="book-synopsis">
-                                Roman tetralogi buru yang legendaris tentang perjuangan, martabat bangsa, dan cinta Minke & Annelies.
-                            </p>
-                            <div class="book-pricing">
-                                <span class="price-current">Rp 110.000</span>
-                                <span class="price-old">Rp 135.000</span>
-                            </div>
-                            <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20tertarik%20memesan%20buku%20Bumi%20Manusia" 
-                               target="_blank" class="btn btn-buy">
-                                🛒 Pesan via WhatsApp
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Buku 3 -->
-                    <article class="book-card">
-                        <div class="book-img-box">
-                            <span class="badge-badge-disc">-20%</span>
-                            <img src="images/buku-cantik-itu-luka.jpg" alt="Sampul Cantik Itu Luka" class="book-cover-img">
-                        </div>
-                        <div class="book-details">
-                            <span class="genre-pill">Realisme Magis</span>
-                            <h3 class="book-title">Cantik Itu Luka</h3>
-                            <p class="book-writer">Eka Kurniawan</p>
-                            <div class="book-rating">
-                                <span class="stars">★★★★☆</span>
-                                <span class="rating-num">(4.8)</span>
-                            </div>
-                            <p class="book-synopsis">
-                                Epik keluarga Dewi Ayu yang menyajikan perpaduan sejarah kelam, mitologi, dan ironi kehidupan.
-                            </p>
-                            <div class="book-pricing">
-                                <span class="price-current">Rp 105.000</span>
-                                <span class="price-old">Rp 130.000</span>
-                            </div>
-                            <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20tertarik%20memesan%20buku%20Cantik%20Itu%20Luka" 
-                               target="_blank" class="btn btn-buy">
-                                🛒 Pesan via WhatsApp
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Buku 4 -->
-                    <article class="book-card">
-                        <div class="book-img-box">
-                            <span class="badge-badge-disc">Favorit</span>
-                            <img src="images/buku-hujan.jpg" alt="Sampul Hujan" class="book-cover-img">
-                        </div>
-                        <div class="book-details">
-                            <span class="genre-pill">Fiksi Ilmiah</span>
-                            <h3 class="book-title">Hujan</h3>
-                            <p class="book-writer">Tere Liye</p>
-                            <div class="book-rating">
-                                <span class="stars">★★★★★</span>
-                                <span class="rating-num">(4.9)</span>
-                            </div>
-                            <p class="book-synopsis">
-                                Kisah fiksi masa depan tentang kepedihan bencana alam, memori berharga, dan kekuatan melepaskan.
-                            </p>
-                            <div class="book-pricing">
-                                <span class="price-current">Rp 85.000</span>
-                                <span class="price-old">Rp 99.000</span>
-                            </div>
-                            <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20tertarik%20memesan%20buku%20Hujan" 
-                               target="_blank" class="btn btn-buy">
-                                🛒 Pesan via WhatsApp
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Buku 5 -->
-                    <article class="book-card">
-                        <div class="book-img-box">
-                            <span class="badge-badge-disc">-10%</span>
-                            <img src="images/buku-gadis-kretek.jpg" alt="Sampul Gadis Kretek" class="book-cover-img">
-                        </div>
-                        <div class="book-details">
-                            <span class="genre-pill">Drama Sejarah</span>
-                            <h3 class="book-title">Gadis Kretek</h3>
-                            <p class="book-writer">Ratih Kumala</p>
-                            <div class="book-rating">
-                                <span class="stars">★★★★☆</span>
-                                <span class="rating-num">(4.7)</span>
-                            </div>
-                            <p class="book-synopsis">
-                                Misteri resep saus tembakau legendaris dan kisah cinta tersembunyi berlatar industri kretek lokal.
-                            </p>
-                            <div class="book-pricing">
-                                <span class="price-current">Rp 80.000</span>
-                                <span class="price-old">Rp 89.000</span>
-                            </div>
-                            <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20tertarik%20memesan%20buku%20Gadis%20Kretek" 
-                               target="_blank" class="btn btn-buy">
-                                🛒 Pesan via WhatsApp
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Buku 6 -->
-                    <article class="book-card">
-                        <div class="book-img-box">
-                            <span class="badge-badge-disc">Edisi Baru</span>
-                            <img src="images/buku-pulang.jpg" alt="Sampul Pulang" class="book-cover-img">
-                        </div>
-                        <div class="book-details">
-                            <span class="genre-pill">Sastra Populer</span>
-                            <h3 class="book-title">Pulang</h3>
-                            <p class="book-writer">Leila S. Chudori</p>
-                            <div class="book-rating">
-                                <span class="stars">★★★★★</span>
-                                <span class="rating-num">(4.8)</span>
-                            </div>
-                            <p class="book-synopsis">
-                                Perjalanan para eksil politik Indonesia di Paris dan kerinduan mendalam untuk kembali ke tanah air.
-                            </p>
-                            <div class="book-pricing">
-                                <span class="price-current">Rp 89.000</span>
-                                <span class="price-old">Rp 105.000</span>
-                            </div>
-                            <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20tertarik%20memesan%20buku%20Pulang" 
-                               target="_blank" class="btn btn-buy">
-                                🛒 Pesan via WhatsApp
-                            </a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- ================= CATEGORIES SECTION ================= -->
-        <section id="kategori" class="categories-section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">Jelajahi Genre</span>
-                    <h2 class="section-title">Kategori Buku di Nabil Book</h2>
-                    <p class="section-subtitle">
-                        Temukan berbagai genre menarik yang disesuaikan dengan selera dan minat baca Anda.
-                    </p>
-                </div>
-
-                <div class="category-grid">
-                    <div class="category-card">
-                        <div class="cat-icon">📖</div>
-                        <h3>Fiksi & Sastra</h3>
-                        <p>Kisah novel kontemporer, puisi mendalam, serta prosa sastra Indonesia dan dunia.</p>
-                        <span class="cat-count">120+ Judul</span>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="cat-icon">🔍</div>
-                        <h3>Misteri & Thriller</h3>
-                        <p>Cerita teka-teki pemecahan kasus, investigasi detektif, dan ketegangan psikologis.</p>
-                        <span class="cat-count">65+ Judul</span>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="cat-icon">🚀</div>
-                        <h3>Sci-Fi & Fantasi</h3>
-                        <p>Petualangan melintasi galaksi, dunia magis imajinatif, dan masa depan teknologi.</p>
-                        <span class="cat-count">80+ Judul</span>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="cat-icon">🧠</div>
-                        <h3>Pengembangan Diri</h3>
-                        <p>Buku mindset, produktivitas, psikologi populer, dan panduan kesuksesan hidup.</p>
-                        <span class="cat-count">95+ Judul</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ================= FEATURES / KEUNGGULAN SECTION ================= -->
-        <section id="keunggulan" class="features-section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">Komitmen Kami</span>
-                    <h2 class="section-title">Mengapa Memilih Nabil Book?</h2>
-                    <p class="section-subtitle">
-                        Kenyamanan dan kepuasan pecinta buku adalah prioritas utama toko kami.
-                    </p>
-                </div>
-
-                <div class="features-grid">
-                    <div class="feature-item">
-                        <div class="feature-icon">🛡️</div>
-                        <h4>100% Asli & Bergaransi</h4>
-                        <p>Semua buku langsung dari penerbit resmi tanpa ada buku bajakan sama sekali.</p>
-                    </div>
-
-                    <div class="feature-item">
-                        <div class="feature-icon">📦</div>
-                        <h4>Kemasan Aman Rapi</h4>
-                        <p>Pengemasan menggunakan bubble wrap ganda dan kardus proteksi tahan benturan.</p>
-                    </div>
-
-                    <div class="feature-item">
-                        <div class="feature-icon">🎓</div>
-                        <h4>Harga Sahabat Mahasiswa</h4>
-                        <p>Diskon spesial dan bundel hemat untuk mendukung budaya literasi di kampus.</p>
-                    </div>
-
-                    <div class="feature-item">
-                        <div class="feature-icon">⚡</div>
-                        <h4>Proses Cepat & Responsif</h4>
-                        <p>Pemesanan langsung ditanggapi dan dikirimkan pada hari kerja yang sama.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ================= TESTIMONIALS SECTION ================= -->
-        <section class="testimonials-section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">Testimoni Pembaca</span>
-                    <h2 class="section-title">Apa Kata Mereka?</h2>
-                    <p class="section-subtitle">Pengalaman nyata para mahasiswa dan pembaca setia Nabil Book.</p>
-                </div>
-
-                <div class="testimonials-grid">
-                    <div class="testimonial-card">
-                        <div class="stars">★★★★★</div>
-                        <p class="quote">
-                            "Buku Laut Bercerita sampai dalam kondisi mulus banget, segel resmi penerbit. Sebagai mahasiswa, diskonnya ngebantu banget!"
-                        </p>
-                        <div class="user-meta">
-                            <span class="user-name">Dimas Pratama</span>
-                            <span class="user-title">Mahasiswa Teknik Informatika</span>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="stars">★★★★★</div>
-                        <p class="quote">
-                            "Pesan via WhatsApp cepat dibalas oleh Nabil Book. Rekomendasi novelnya pas banget buat nemenin akhir pekan."
-                        </p>
-                        <div class="user-meta">
-                            <span class="user-name">Sarah Anggraini</span>
-                            <span class="user-title">Penikmat Novel & Sastra</span>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="stars">★★★★★</div>
-                        <p class="quote">
-                            "Katalog buku fiksi klasiknya lengkap. Akhirnya bisa dapat Bumi Manusia dengan harga terbaik dan packing super aman."
-                        </p>
-                        <div class="user-meta">
-                            <span class="user-name">Rian Saputra</span>
-                            <span class="user-title">Mahasiswa Ilmu Komunikasi</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ================= CONTACT & CALLOUT ================= -->
-        <section id="kontak" class="contact-section">
-            <div class="container contact-container">
-                <div class="contact-box">
-                    <div class="contact-text">
-                        <h2>Tertarik dengan Koleksi Lainnya?</h2>
-                        <p>
-                            Punya request judul novel tertentu atau ingin konsultasi buku yang cocok? Tim <strong>Nabil Book</strong> siap membantu Anda.
-                        </p>
-                    </div>
-                    <div class="contact-cta">
-                        <a href="https://api.whatsapp.com/send?text=Halo%20Nabil%20Book,%20saya%20ingin%20tanya%20katalog%20buku" 
-                           target="_blank" class="btn btn-whatsapp">
-                            💬 Chat WhatsApp Sekarang
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- ================= FOOTER ================= -->
-    <footer class="site-footer">
-        <div class="container footer-container">
-            <div class="footer-col brand-col">
-                <div class="footer-logo">
-                    <span class="logo-text">Nabil<strong>Book</strong></span>
-                </div>
-                <p class="footer-desc">
-                    Toko buku online independen yang menyediakan novel fiksi, sastra, dan karya inspiratif terbaik untuk memperkaya literasi nusantara.
-                </p>
-                <div class="badge-offline">Aset Lokal: images/ & css/ (Offline Ready)</div>
-            </div>
-
-            <div class="footer-col">
-                <h4>Navigasi</h4>
-                <ul class="footer-links">
-                    <li><a href="#beranda">Beranda</a></li>
-                    <li><a href="#identitas">Identitas Mahasiswa</a></li>
-                    <li><a href="#koleksi">Koleksi Bestseller</a></li>
-                    <li><a href="#kategori">Kategori Genre</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col">
-                <h4>Koleksi Pilihan</h4>
-                <ul class="footer-links">
-                    <li><a href="#koleksi">Laut Bercerita</a></li>
-                    <li><a href="#koleksi">Bumi Manusia</a></li>
-                    <li><a href="#koleksi">Cantik Itu Luka</a></li>
-                    <li><a href="#koleksi">Hujan - Tere Liye</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col identity-col">
-                <h4>Tugas Mahasiswa</h4>
-                <div class="footer-badge-box">
-                    <p><strong>Nama:</strong> Nabil Antoni</p>
-                    <p><strong>NIM:</strong> SI22250011</p>
-                    <p><strong>Prodi:</strong> Sistem Informasi</p>
-                    <p><strong>Kampus:</strong> STMIK Lombok</p>
-                    <p><strong>Mata Kuliah:</strong> Pemrograman Web</p>
-                </div>
-            </div>
+      <div class="footer-col">
+        <h4>Informasi Mahasiswa</h4>
+        <div class="footer-student-box">
+          <p><strong>Nama:</strong> Nabil Antoni</p>
+          <p><strong>NIM:</strong> SI22250011</p>
+          <p><strong>Prodi:</strong> Sistem Informasi</p>
+          <p><strong>Kampus:</strong> STMIK Lombok</p>
+          <p><strong>Mata Kuliah:</strong> Pemrograman Web</p>
         </div>
+      </div>
+    </div>
 
-        <div class="footer-bottom">
-            <div class="container bottom-content">
-                <p>&copy; 2026 <strong>Nabil Book</strong>. Dikembangkan oleh <strong>Nabil Antoni (SI22250011)</strong> - Sistem Informasi, STMIK Lombok.</p>
-                <p class="sub-copy">Dibuat khusus untuk Tugas Pemrograman Web | Hak Cipta Dilindungi.</p>
-            </div>
-        </div>
-    </footer>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Nabil Book. Proyek Mata Kuliah Pemrograman Web - Nabil Antoni (SI22250011).</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
